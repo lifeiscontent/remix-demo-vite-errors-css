@@ -26,6 +26,10 @@ export function Layout({ children }) {
   );
 }
 
+export function HydrateFallback() {
+  return null;
+}
+
 export default function App() {
   return <Outlet />;
 }
